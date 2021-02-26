@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "fullName": "Mã Đức Phong",
+      "address": "28 Vinhouse p10 q8",
+      "email": "abc@gmail.com"
+    },
+    {
+      "fullName": "Trần Phương Như Quỳnh",
+      "address": "29 khu Sala p10 q2",
+      "email": "xyz@gmail.com",
+      "id": 2
+    },
+    {
+      "fullName": "Mã Đức Cường",
+      "address": "15 Tản Đà p15 q8",
+      "email": "xyza@gmail.com",
+      "id": 3
+    },
+    {
+      "fullName": "Mã Văn Minh",
+      "address": "29 Xóm Chỉ Phường 10, Quận 5",
+      "email": "maducphong7@gmail.com",
+      "id": 4
+    }
+  ]
+}

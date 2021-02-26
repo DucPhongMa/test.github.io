@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .list-students{
+        width: 1200px;
+        margin: auto;
+    }
+    .list-students-title{
+        color: #dc3545;
+        letter-spacing: 2px;
+    }
+
+</style>
+<body>
+    <div class="form-input">
+        <div>
+            <label>Họ và tên: </label>
+            <input type="text" name="name" placeholder="Họ và tên">
+        </div>
+        <div>
+            <label>Địa chỉ: </label>
+            <input type="text" name="address" placeholder="Địa chỉ">
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" placeholder="Email">
+        </div>
+        <div>
+            <button id="create">Thêm</button>
+        </div>
+    </div>
+    <div class="list-students">
+        <h1 class="list-students-title">DANH SÁCH HỌC VIÊN</h1>
+
+        <div class="list-students-form">
+            <table class="list-students-form-table-heading" border="1" cellpadding="5px" cellspacing="0">
+                <!------<tr class="list-students-form-heading">
+                    <td class="list-students-form-heading-item">#</td>
+                    <td class="list-students-form-heading-item">Họ tên học viên</td>
+                    <td class="list-students-form-heading-item">Địa chỉ</td>
+                    <td class="list-students-form-heading-item">Email</td>
+                </tr> ------> 
+            </table>
+        </div>
+    </div>
+    <script src="assets/app2.js"></script>
+</body>
+</html>
